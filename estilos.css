@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Silkscreen&display=swap');
+
+/*  verde #94dd26 y morado #6f26dd;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Silkscreen', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    background-image: url("./src/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Header*/
+
+.menu{
+    background-color: rgb(25, 4, 45);
+    height: 165px;
+    display: flex;
+}
+
+.menu__logo{
+    width: 10%;
+    display: inline-block;
+    padding: 0.5%;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+.logo{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.menu__nav{
+    background-color: gray;
+}
+
+.menu__nav__item{
+    background-color: black;
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Silkscreen', cursive;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    background-color:  black;
+    margin: 5px;
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+/*Main*/
+
+.div__bienvenida{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.titulo__primario{
+    text-align: center;
+    color: #94dd26;
+    text-align: center;
+    text-shadow: 1px 2px 2px #6f26dd, 0 0 25px white, 0 0 5px #6f26dd, 0 0 20px white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.imagen__bienvenida{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo__secundario{
+    color: white;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+.titulo__terciario{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div__enlaces{
+    background-color: #6f26dd2a;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.div__enlaces__img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caja__formulario{
+    background-color: rgba(128, 128, 128, 0.800);
+}
+
+/*Footer*/
+
+.pie{
+    background-color: rgba(0, 0, 0, 0.800);
+}
+
+.pie__nav{
+    padding: 10px;
+}
+
+.pie__nav__link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+
+}
+
+.pie__rights{
+    color: white;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
