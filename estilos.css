@@ -28,6 +28,7 @@ body{
     background-color: rgb(25, 4, 45);
     height: 165px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .menu__logo{
@@ -47,6 +48,7 @@ body{
 
 .menu__nav{
     background-color: gray;
+    justify-content: space-evenly;
 }
 
 .menu__nav__item{
@@ -126,6 +128,8 @@ p{
 
 .pie__nav{
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .pie__nav__link{
@@ -133,7 +137,6 @@ p{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     display: inline-block;
-
 }
 
 .pie__rights{
