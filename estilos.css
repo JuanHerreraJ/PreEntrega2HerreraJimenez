@@ -16,7 +16,7 @@ html{
 }
 
 body{
-    background-image: url("./src/fondo.png");
+    background-image: url("./src/deep_space.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,6 +108,29 @@ p{
 
 .caja__formulario{
     background-color: rgba(128, 128, 128, 0.800);
+}
+
+.grid__datos{
+    display: grid;
+    height: 100vh;ç
+    grid-template-rows: auto 1fr auto;
+}
+
+.main__datos{
+    margin: 0 auto;
+}
+
+.astronauta{
+    display: block;
+    margin: 0 auto;
+}
+
+.main__datos__btn{
+    display: block;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+    color: white;
 }
 
 /*Footer*/
