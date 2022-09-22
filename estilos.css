@@ -112,8 +112,7 @@ p{
 
 .grid__datos{
     display: grid;
-    height: 100vh;ç
-    grid-template-rows: auto 1fr auto;
+    height: 100vh;
 }
 
 .main__datos{
