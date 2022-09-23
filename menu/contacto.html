@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>¡Tus datos fueron guardados!</title>
     <link rel="shortcut icon" href="../favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos.css">
 </head>
 <body>
@@ -14,66 +16,62 @@
                     <a href="../index.html"><img  class="logo" src="../src/logo.png" alt="Logo multiverso fandom"></a>
                 </div>
                 <nav class="menu__nav">
-                    <ul class="menu__nav__ul">
-                        <li class="menu__nav__ul__item">
-                            <a class="menu__nav__ul__item__btn" href="./capitulos.html"> Capítulos </a>
-                        </li>
-                        <li class="menu__nav__ul__item">
-                            <a class="menu__nav__ul__item__btn" href="./nosotros.html"> Nosotros </a>
-                        </li>
-                        <li class="menu__nav__ul__item">
-                            <a class="menu__nav__ul__item__btn" href="./galeria.html"> Galería </a>
-                        </li>
-                        <li class="menu__nav__ul__item">
-                            <a class="menu__nav__ul__item__btn" href="#"> Contacto </a>
-                        </li>
-                    </ul>
+                    <a class="menu__nav__item" href="./capitulos.html"> Capítulos </a>
+                    <a class="menu__nav__item" href="./nosotros.html"> Nosotros </a>
+                    <a class="menu__nav__item" href="./galeria.html"> Galería </a>
+                    <a class="menu__nav__item" href="./contacto.html"> Contacto </a>
                 </nav>
-        </header>
+            </header>
         <main>
-                <h1 class="titulo__primario">Contacto</h1>
-                <form class="caja__formulario" action="./datosguardados.html">
-                        <div>
-                                <label for="">Ingresa tu nombre</label>
-                                <input type="text" required>
-                        </div>
-                        <div>
-                                <label for="">Ingresa tu E-mail</label>
-                                <input type="email" required>
-                        </div>
-                        <div>
-                                <label for="">Contraseña</label>
-                                <input type="password" minlength="6">
-                        </div>
-                        <div>
-                                <label for="">Selecciona tu casa de cómics preferida</label>
-                                <select name="" id="">
-                                <option value="Marvel">Marvel</option>
-                                <option value="DC comics">DC Cómics</option>
-                                <option value="IDW">IDW</option>
-                                <option value="Boom!">Boom!</option>
-                                <option value="Valiant">Valiant</option>
-                                </select>
-                        </div>
-                        <div>
-                                <legend>¿Deseas recibir notificaciones de nuevos capítulos y nuestro newsletter?</legend>
-                                <br>
-                                <label for="Sí">Sí, por favor.
-                                <input id="Sí" name="un_leng" type="radio" value="Sí" checked >
-                                </label>
-                                <label for="No">No, gracias.
-                                <input id="No" name="un_leng" type="radio" value="No" >
-                                </label>
-                        </div>
-                        <div>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí" required></textarea>
-                        </div>
-                        <div>
-                                <a href="./datosguardados.html"> <input type="submit" value="Enviar formulario"></a>
-                                <input type="reset" value="Borrar datos">
-                        </div>
+                <div>
+                        <h1 class="titulo__primario">Contacto</h1>
+                </div>
+                <br>
+                <div>
+                        <form class="caja__formulario" action="./datosguardados.html">
+                                <div>
+                                        <label for="">Ingresa tu nombre</label>
+                                        <input type="text" required>
+                                </div>
+                                <div>
+                                        <label for="">Ingresa tu E-mail</label>
+                                        <input type="email" required>
+                                </div>
+                                <div>
+                                        <label for="">Contraseña</label>
+                                        <input type="password" minlength="6">
+                                </div>
+                                <div>
+                                        <label for="">Selecciona tu casa de cómics preferida</label>
+                                        <select name="" id="">
+                                        <option value="Marvel">Marvel</option>
+                                        <option value="DC comics">DC Cómics</option>
+                                        <option value="IDW">IDW</option>
+                                        <option value="Boom!">Boom!</option>
+                                        <option value="Valiant">Valiant</option>
+                                        </select>
+                                </div>
+                                <div>
+                                        <legend>¿Deseas recibir notificaciones de nuevos capítulos y nuestro newsletter?</legend>
+                                        <br>
+                                        <label for="Sí">Sí, por favor.
+                                        <input id="Sí" name="un_leng" type="radio" value="Sí" checked >
+                                        </label>
+                                        <label for="No">No, gracias.
+                                        <input id="No" name="un_leng" type="radio" value="No" >
+                                        </label>
+                                </div>
+                                <div>
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí" required></textarea>
+                                </div>
+                                <div>
+                                        <a href="./datosguardados.html"> <input type="submit" value="Enviar formulario"></a>
+                                        <input type="reset" value="Borrar datos">
+                                </div>
+        
+                        </form>
+                </div>
 
-                </form>
         </main>
         <footer class="pie">
                 <div class="pie__nav">
