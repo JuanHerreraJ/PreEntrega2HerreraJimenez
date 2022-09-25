@@ -95,14 +95,21 @@ hr {
     font-family: 'Open Sans', sans-serif;
 }
 
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container__nosotros{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.color__card{
-    background-color: rgba(0, 0, 0, 0.500);
+.card__bg__propio{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,41,90,1) 50%, rgba(2,0,36,1) 100%);
 }
 
 .div__enlaces{
@@ -114,6 +121,14 @@ hr {
     width: 90%;
     display: block;
     margin: 0 auto;
+}
+
+.transicion__nave{
+    transition: all 3s;
+}
+
+.div__enlaces__img:hover{
+    transform: scale(1.15);
 }
 
 p{
