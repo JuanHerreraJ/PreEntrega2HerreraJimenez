@@ -16,7 +16,7 @@ html{
 }
 
 body{
-    background-image: url("../src/deep_space.png");
+    background-image: url("../src/deep_spaceUSP.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,36 +29,23 @@ hr {
 /*Header*/
 
 .menu{
-    height: 165px;
+    height: 15vh;
     flex-direction: row;
     justify-content: right;
     align-content: stretch;
 }
 
-.menu__logo{
-    width: 10%;
-    padding: 0.5%;
-    position: fixed;
-    left: 10px;
-    top: 10px;
-    z-index: 10;
+.header__pattern{
+    background-image: url("../src/darkpattern.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
 }
 
-.logo{
-    width: 100%;
-    margin: auto;
-    display: block;
-}
-
-.menu__nav{
-    display: flex;
-    justify-content: right;
-}
-
-.menu__nav__item{
+.nav__item{
     font-family: 'Silkscreen', cursive;
-    padding: 5%;
     text-decoration: none;
+    text-align: left;
     color: white;
 }
 
@@ -192,13 +179,16 @@ p{
 /*Footer*/
 
 .pie{
-    background-color: rgba(0, 0, 0, 0.800);
+    background-image: url("../src/darkpattern.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .pie__nav{
     padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
 .pie__nav__link{
