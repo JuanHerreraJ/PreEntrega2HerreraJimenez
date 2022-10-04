@@ -16,10 +16,10 @@
                         <div>
                                 <a href="../index.html"><img src="../src/logoresize2MF.png" alt="Logo multiverso fandom"></a>
                         </div>
-                        <a class="navbar-brand nav__item" href="../index.html">Multiverso Fandom</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
+                                <a class="navbar-brand nav__item" href="../index.html">Multiverso Fandom</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
                         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                                 <div class="offcanvas-header header__pattern">
                                 <h5 class="offcanvas-title nav__item" id="offcanvasDarkNavbarLabel">Menú</h5>
@@ -51,54 +51,56 @@
                 </div>
                 <br>
                 <div>
-                        <form class="caja__formulario" action="./datosguardados.html">
-                                <div>
-                                        <label for="">Ingresa tu nombre</label>
-                                        <input type="text" required>
+                        <form class=" row g-3 caja__formulario" action="./datosguardados.html">
+                                <div class="col-md-8 col-sm-12">
+                                        <label for="" class="form-label boton">Ingresa tu nombre</label>
+                                        <input type="text" class="form-control" placeholder="O tu alias de superhéroe" required>
                                 </div>
-                                <div>
-                                        <label for="">Ingresa tu E-mail</label>
-                                        <input type="email" required>
+                                <br>
+                                <div class="col-md-8 col-sm-12">
+                                        <label for="" class="form-label boton">Ingresa tu E-mail</label>
+                                        <input type="email" class="form-control" placeholder="o tu señal secreta de contacto" required>
                                 </div>
-                                <div>
-                                        <label for="">Contraseña</label>
-                                        <input type="password" minlength="6">
-                                </div>
-                                <div>
-                                        <label for="">Selecciona tu casa de cómics preferida</label>
+                                <br>
+                                <div class="col-md-8 col-sm-12">
+                                        <label for="" class="boton">Selecciona tu casa de cómics preferida</label>
                                         <select name="" id="">
-                                        <option value="Marvel">Marvel</option>
-                                        <option value="DC comics">DC Cómics</option>
-                                        <option value="IDW">IDW</option>
-                                        <option value="Boom!">Boom!</option>
-                                        <option value="Valiant">Valiant</option>
-                                        </select>
+                                                <option value="Marvel">Marvel</option>
+                                                <option value="DC comics">DC Cómics</option>
+                                                <option value="IDW">IDW</option>
+                                                <option value="Boom!">Boom!</option>
+                                                <option value="Valiant">Valiant</option>
+                                                </select>
                                 </div>
+                                <br>
+                                <div class="col-md-8 col-sm-12">
+                                        <legend class="boton">¿Deseas recibir notificaciones de nuevos capítulos y nuestro newsletter?</legend>
+                                                <label class="boton" for="Sí">Sí, no me lo perdería por nada.
+                                                <input id="Sí" name="un_leng" type="radio" value="Sí" checked >
+                                                </label>
+                                                <br>
+                                                <label class="boton" for="No">No, sé de lo que me estoy perdiendo.
+                                                <input id="No" name="un_leng" type="radio" value="No" >
+                                                </label>
+                                </div>
+                                <br>
                                 <div>
-                                        <legend>¿Deseas recibir notificaciones de nuevos capítulos y nuestro newsletter?</legend>
-                                        <br>
-                                        <label for="Sí">Sí, por favor.
-                                        <input id="Sí" name="un_leng" type="radio" value="Sí" checked >
-                                        </label>
-                                        <label for="No">No, gracias.
-                                        <input id="No" name="un_leng" type="radio" value="No" >
-                                        </label>
+                                        <textarea class="form-control col-md-8 col-sm-8" name="" id="" cols="25" rows="5" placeholder="¡Cuéntanos qué te hizo amar el entretenimiento digital!" ></textarea>
                                 </div>
-                                <div>
-                                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí" required></textarea>
+                                <br>
+                                <div class="botones">
+                                        <a href="./datosguardados.html"> <input class="col-md-4 col-sm-12 btn btn-dark" type="submit" value="Enviar formulario"></a>
+                                        <input class="col-md-4 col-sm-12 btn btn-danger" type="reset" value="Borrar datos">
                                 </div>
-                                <div>
-                                        <a href="./datosguardados.html"> <input type="submit" value="Enviar formulario"></a>
-                                        <input type="reset" value="Borrar datos">
-                                </div>
-        
+                                <br>
+                                <br>
+                                <br>
                         </form>
-                </div>
 
+                </div>
+                <br>
+                <br>
         </main>
-        <br>
-        <hr>
-        <br>
         <footer class="pie">
                 <div class="pie__nav">
                         <a class="pie__nav__link" href="https://www.wonder.legal/ar/modele/terminos-condiciones-sitio-web?gclid=EAIaIQobChMIuYS_8e3s-QIVEBXUAR356QXqEAAYASAAEgIp5_D_BwE" target="_blank">Aviso legal</a></li>

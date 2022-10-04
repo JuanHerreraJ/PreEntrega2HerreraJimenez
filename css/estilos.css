@@ -151,12 +151,28 @@ p{
 }
 
 .caja__formulario{
-    background-color: rgba(128, 128, 128, 0.800);
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.5480786064425771) 0%, rgba(0,0,0,0.7049413515406162) 50%, rgba(0,0,0,0.9374343487394958) 100%);/*
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.8141850490196079) 0%, rgba(0,0,0,0.6433167016806722) 50%, rgba(0,0,0,0.4360337885154062) 100%);*/
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Silkscreen', cursive;
+}
+
+.boton{
+    font-size: 1em;
+    color: white;
+}
+
+.botones{
+    text-align: center;
 }
 
 .grid__datos{
     display: grid;
     height: 100vh;
+    width: auto;
 }
 
 .main__datos{
