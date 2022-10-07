@@ -4,79 +4,103 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nosotros</title>
+  <title>Nosotros | Multiverso Fandom</title>
   <link rel="shortcut icon" href="../favicon.ico">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
   <header class="menu">
-    <div class="menu__logo">
-        <a href="../index.html"><img  class="logo" src="../src/logo.png" alt="Logo multiverso fandom"></a>
-    </div>
-    <nav class="menu__nav">
-        <a class="menu__nav__item" href="./capitulos.html"> Capítulos </a>
-        <a class="menu__nav__item" href="#"> Nosotros </a>
-        <a class="menu__nav__item" href="./galeria.html"> Galería </a>
-        <a class="menu__nav__item" href="./contacto.html"> Contacto </a>
+    <nav class="navbar navbar-dark bg-dark header__pattern">
+        <div class="container-fluid">
+            <div>
+                <a href="../index.html"><img src="../src/logoresize2MF.png" alt="Logo multiverso fandom"></a>
+            </div>
+            <a class="navbar-brand nav__item" href="../index.html">Multiverso Fandom</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header header__pattern">
+                    <h5 class="offcanvas-title nav__item" id="offcanvasDarkNavbarLabel">Menú</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body header__pattern">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active nav__item" href="./capitulos.html">Capítulos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active nav__item" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active nav__item" href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active nav__item" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
   </header>
-    <main class="container">
-        <h1 class="titulo__primario" >Nosotros</h1>
-        <br>
-        <div class="row justify-content-around">
-          <div class="card col-lg-4 col-md-6 col-sm-12 card__bg__propio" style="width: 27.3rem;">
-            <img src="../src/imgperfiljuan.jpeg" class="card-img-top" alt="...">
-            <div class="card-body color__card">
-              <h5 class="card-title titulo__terciario centrado">@juanxitop</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aspernatur accusamus dignissimos illum, ad rem dolores aperiam quisquam laudantium saepe nesciunt accusantium architecto nobis aliquid cum iste quae commodi dolore.
-                Ab necessitatibus, fugit neque cum soluta voluptate rem voluptatem accusantium voluptates reprehenderit? Eaque, laudantium explicabo in fugit eum vel tempora porro obcaecati non perferendis iusto ea doloribus quos. Magni, dolorum.
-                Quaerat, rem illum, blanditiis, odit consequatur beatae numquam magni aliquam recusandae porro maxime minima voluptatem? Incidunt ea error in veritatis exercitationem, eum aspernatur dolor velit inventore iusto voluptate corrupti consequatur?
-                Rem sit magnam delectus, repellat et incidunt id.</p>
-              <a href="https://www.instagram.com/juanxitop" class="main__datos__btn" target="_blank">IG: @juanxitop</a>
-            </div>
-        </div>
-        <br>
-        <div class="card col-lg-4 col-md-6 col-sm-12 card__bg__propio" style="width: 27.3rem;">
-            <img src="../src/imgperfilrodrigo.jpeg" class="card-img-top" alt="...">
-            <div class="card-body color__card">
-              <h5 class="card-title titulo__terciario centrado">@lizarazopowerup</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aspernatur accusamus dignissimos illum, ad rem dolores aperiam quisquam laudantium saepe nesciunt accusantium architecto nobis aliquid cum iste quae commodi dolore.
-                Ab necessitatibus, fugit neque cum soluta voluptate rem voluptatem accusantium voluptates reprehenderit? Eaque, laudantium explicabo in fugit eum vel tempora porro obcaecati non perferendis iusto ea doloribus quos. Magni, dolorum.
-                Quaerat, rem illum, blanditiis, odit consequatur beatae numquam magni aliquam recusandae porro maxime minima voluptatem? Incidunt ea error in veritatis exercitationem, eum aspernatur dolor velit inventore iusto voluptate corrupti consequatur?
-                Rem sit magnam delectus, repellat et incidunt id.</p>
-              <a href="https://www.instagram.com/lizarazopowerup" class="main__datos__btn" target="_blank">IG: @lizarazopowerup</a>
-            </div>
-        </div>
-        <br>
-        <div class="card col-lg-4 col-md-6 col-sm-12 card__bg__propio" style="width: 27.3rem;">
-            <img src="../src/imgperfiljairo.jpeg" class="card-img-top" alt="...">
-            <div class="card-body color__card">
-              <h5 class="card-title titulo__terciario centrado">@jairo.serrano15</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aspernatur accusamus dignissimos illum, ad rem dolores aperiam quisquam laudantium saepe nesciunt accusantium architecto nobis aliquid cum iste quae commodi dolore.
-                Ab necessitatibus, fugit neque cum soluta voluptate rem voluptatem accusantium voluptates reprehenderit? Eaque, laudantium explicabo in fugit eum vel tempora porro obcaecati non perferendis iusto ea doloribus quos. Magni, dolorum.
-                Quaerat, rem illum, blanditiis, odit consequatur beatae numquam magni aliquam recusandae porro maxime minima voluptatem? Incidunt ea error in veritatis exercitationem, eum aspernatur dolor velit inventore iusto voluptate corrupti consequatur?
-                Rem sit magnam delectus, repellat et incidunt id.</p>
-              <a href="https://www.instagram.com/jairo.serrano15" class="main__datos__btn" target="_blank">IG: @jairo.serrano15</a>
-            </div>
-          </div>
-        </div>
-      </main>
+  <main class="container">
+    <h1 class="titulo__primario" >Nosotros</h1>
+    <br>
+    <div class="row justify-content-around">
+      <div class="card col-lg-4 col-md-6 col-sm-12 card__bg__propio" style="width: 27.3rem;">
+        <img src="../src/imgperfiljuan.jpeg" class="card-img-top" alt="...">
+      <div class="card-body color__card">
+        <h5 class="card-title titulo__terciario centrado">@juanxitop</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aspernatur accusamus dignissimos illum, ad rem dolores aperiam quisquam laudantium saepe nesciunt accusantium architecto nobis aliquid cum iste quae commodi dolore.
+        Ab necessitatibus, fugit neque cum soluta voluptate rem voluptatem accusantium voluptates reprehenderit? Eaque, laudantium explicabo in fugit eum vel tempora porro obcaecati non perferendis iusto ea doloribus quos. Magni, dolorum.
+        Quaerat, rem illum, blanditiis, odit consequatur beatae numquam magni aliquam recusandae porro maxime minima voluptatem? Incidunt ea error in veritatis exercitationem, eum aspernatur dolor velit inventore iusto voluptate corrupti consequatur?
+        Rem sit magnam delectus, repellat et incidunt id.</p>
+        <a href="https://www.instagram.com/juanxitop" class="main__datos__btn" target="_blank">IG: @juanxitop</a>
+      </div>
+      </div>
       <br>
-      <hr>
+      <div class="card col-lg-4 col-md-6 col-sm-12 card__bg__propio" style="width: 27.3rem;">
+        <img src="../src/imgperfilrodrigo.jpeg" class="card-img-top" alt="...">
+      <div class="card-body color__card">
+        <h5 class="card-title titulo__terciario centrado">@lizarazopowerup</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aspernatur accusamus dignissimos illum, ad rem dolores aperiam quisquam laudantium saepe nesciunt accusantium architecto nobis aliquid cum iste quae commodi dolore.
+        Ab necessitatibus, fugit neque cum soluta voluptate rem voluptatem accusantium voluptates reprehenderit? Eaque, laudantium explicabo in fugit eum vel tempora porro obcaecati non perferendis iusto ea doloribus quos. Magni, dolorum.
+        Quaerat, rem illum, blanditiis, odit consequatur beatae numquam magni aliquam recusandae porro maxime minima voluptatem? Incidunt ea error in veritatis exercitationem, eum aspernatur dolor velit inventore iusto voluptate corrupti consequatur?
+        Rem sit magnam delectus, repellat et incidunt id.</p>
+        <a href="https://www.instagram.com/lizarazopowerup" class="main__datos__btn" target="_blank">IG: @lizarazopowerup</a>
+      </div>
+      </div>
       <br>
+      <div class="card col-lg-4 col-md-6 col-sm-12 card__bg__propio" style="width: 27.3rem;">
+        <img src="../src/imgperfiljairo.jpeg" class="card-img-top" alt="...">
+      <div class="card-body color__card">
+        <h5 class="card-title titulo__terciario centrado">@jairo.serrano15</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aspernatur accusamus dignissimoillum,ad rem dolores aperiam quisquam laudantium saepe nesciunt accusantium architecto nobis aliquid cum iste quae commoddolore.
+        Ab necessitatibus, fugit neque cum soluta voluptate rem voluptatem accusantium voluptates reprehenderit? Eaquelaudantiumexplicaboin fugit eum vel tempora porro obcaecati non perferendis iusto ea doloribus quos. Magni, dolorum.
+        Quaerat, rem illum, blanditiis, odit consequatur beatae numquam magni aliquam recusandae porro maxime minima voluptateIncidunt eaerror in veritatis exercitationem, eum aspernatur dolor velit inventore iusto voluptate corrupti consequatur?
+        Rem sit magnam delectus, repellat et incidunt id.</p>
+        <a href="https://www.instagram.com/jairo.serrano15" class="main__datos__btn" target="_blank">IG: @jairo.serrano15</a>
+      </div>
+      </div>
+    </div>
+  </main>
+  <br>
+  <hr>
+  <br>
     <footer class="pie">
         <div class="pie__nav">
             <a class="pie__nav__link" href="https://www.wonder.legal/ar/modele/terminos-condiciones-sitio-web?gclid=EAIaIQobChMIuYS_8e3s-QIVEBXUAR356QXqEAAYASAAEgIp5_D_BwE" target="_blank">Aviso legal</a></li>
             <a class="pie__nav__link" href="https://www.wonder.legal/ar/modele/politica-privacidad-sitio-web-ar?gclid=EAIaIQobChMIq8uxie7s-QIVzhvUAR3sAgVmEAAYAiAAEgIIoPD_BwE" target="_blank">Política de privacidad</a></li>
             <a class="pie__nav__link" href="https://www.argentinalacarta.com/politica-de-cookies/#:~:text=La%20LSSI%2DCE%2C%20obliga%20a,de%20la%20Ley%2034%2F2002" target="_blank">Política de cookies</a></li>
-            <a class="pie__nav__link" href="https://open.spotify.com/show/7IYeF1aOpBfBofZSTOOvSR" target="_blank">Spotify</a></li>
             <a class="pie__nav__link" href="https://www.instagram.com/multiversofandom/" target="_blank">Redes Sociales</a></li>
+            <a class="pie__nav__link" href="https://open.spotify.com/show/7IYeF1aOpBfBofZSTOOvSR" target="_blank">Spotify</a></li>
         </div>
         <div>
             <p class="pie__rights">© 2022 Multiverso Fandom. All Rights Reserved.</p>
         </div>
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
