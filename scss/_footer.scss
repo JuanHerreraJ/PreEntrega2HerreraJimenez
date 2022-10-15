@@ -1,0 +1,23 @@
+.pie{
+    background-image: url("../src/darkpattern.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    .pie__nav{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        .pie__nav__link{
+            color: white;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            display: inline-block;
+        }
+    }
+    .pie__rights{
+        color: white;
+        text-align: center;
+        margin-bottom: 0;
+        font-family: 'Silkscreen', cursive;
+    }
+}

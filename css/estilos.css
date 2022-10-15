@@ -1,219 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Silkscreen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Silkscreen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/*  verde #94dd26 y morado #6f26dd;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Press Start 2P', cursive;
-    font-family: 'Silkscreen', cursive;*/
+html {
+  background-color: black; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    background-color: black;
-}
-
-body{
-    background-image: url("../src/deep_spaceUSP.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+body {
+  background-image: url("../src/deep_spaceUSP.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 hr {
-    color: #94dd26;
-}
+  color: #94dd26; }
 
-/*Header*/
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
 
-.menu{
-    height: 15vh;
-    flex-direction: row;
-    justify-content: right;
-    align-content: stretch;
-}
+.titulo__primario {
+  text-align: center;
+  color: #94dd26;
+  text-align: center;
+  text-shadow: 1px 2px 2px #6f26dd, 0 0 25px white, 0 0 5px #6f26dd, 0 0 20px white;
+  font-family: 'Press Start 2P', cursive; }
 
-.header__pattern{
-    background-image: url("../src/darkpattern.png");
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
-}
+.titulo__secundario {
+  color: white;
+  text-align: center;
+  font-family: 'Silkscreen', cursive; }
 
-.nav__item{
-    font-family: 'Silkscreen', cursive;
-    text-decoration: none;
-    text-align: left;
-    color: white;
-}
+.titulo__terciario {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif; }
 
-/*Main*/
-
-.div__bienvenida{
-    margin: 0 auto;
-    width: 80%;
-}
-
-.titulo__primario{
-    text-align: center;
-    color: #94dd26;
-    text-align: center;
-    text-shadow: 1px 2px 2px #6f26dd, 0 0 25px white, 0 0 5px #6f26dd, 0 0 20px white;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.imagen__bienvenida{
-    width: 40%;
-    display: block;
-    margin: 0 auto;
-}
-
-.titulo__secundario{
-    color: white;
-    text-align: center;
-    font-family: 'Silkscreen', cursive;
-}
-
-.titulo__terciario{
-    color: white;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-}
+.main__datos__btn {
+  display: block;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+  text-decoration: none;
+  color: white; }
 
 .centrado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
-.container__nosotros{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+.card__bg__propio {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #73295a 50%, #020024 100%); }
 
-.card__bg__propio{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,41,90,1) 50%, rgba(2,0,36,1) 100%);
-}
+.astronauta {
+  display: block;
+  margin: 0 auto; }
 
-.div__enlaces{
-    width: 50%;
-    margin: 0 auto;
-}
+.div__bienvenida {
+  margin: 0 auto;
+  width: 80%; }
+  .div__bienvenida .imagen__bienvenida {
+    width: 40%;
+    display: block;
+    margin: 0 auto; }
 
-.div__enlaces__img{
+.div__enlaces {
+  width: 50%;
+  margin: 0 auto; }
+  .div__enlaces .div__enlaces__img {
     width: 90%;
     display: block;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
+    .div__enlaces .div__enlaces__img:hover {
+      transform: scale(1.15); }
+  .div__enlaces .transicion__nave {
+    transition: all 3s; }
 
-.transicion__nave{
-    transition: all 3s;
-}
-
-.div__enlaces__img:hover{
-    transform: scale(1.15);
-}
-
-p{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.capitulos{
-    background-color: rgba(0, 0, 0, 0.500);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.capitulos__portada{
+.capitulos {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .capitulos .capitulos__portada {
     width: 30%;
     padding: 3%;
-    margin: 0 auto;
-}
-
-.capitulos__texto{
+    margin: 0 auto; }
+    .capitulos .capitulos__portada .portadaimg {
+      width: 100%; }
+  .capitulos .capitulos__texto {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 2%;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
 
-.portadaimg{
-    width: 100%;
-}
-
-.caja__formulario{
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,0.5480786064425771) 0%, rgba(0,0,0,0.7049413515406162) 50%, rgba(0,0,0,0.9374343487394958) 100%);
-    width: 85%;
-    margin: 0 auto;
-    font-family: 'Silkscreen', cursive;
-}
-
-.boton{
+.caja__formulario {
+  background: black;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.548079) 0%, rgba(0, 0, 0, 0.704941) 50%, rgba(0, 0, 0, 0.937434) 100%);
+  width: 85%;
+  margin: 0 auto;
+  font-family: 'Silkscreen', cursive; }
+  .caja__formulario .boton {
     font-size: 1em;
-    color: white;
-}
+    color: white; }
 
-.botones{
-    text-align: center;
-}
+.botones {
+  text-align: center; }
 
-.grid__datos{
-    display: grid;
-    height: 100vh;
-    width: auto;
-}
+.grid__datos {
+  display: grid;
+  height: 100vh;
+  width: auto; }
+  .grid__datos .main__datos {
+    margin: 0 auto; }
 
-.main__datos{
-    margin: 0 auto;
-}
-
-.astronauta{
-    display: block;
-    margin: 0 auto;
-}
-
-.main__datos__btn{
-    display: block;
-    text-align: center;
-    font-family: 'Silkscreen', cursive;
-    text-decoration: none;
-    color: white;
-}
-
-/*Footer*/
-
-.pie{
+.menu {
+  height: 15vh;
+  flex-direction: row;
+  justify-content: right;
+  align-content: stretch; }
+  .menu .header__pattern {
     background-image: url("../src/darkpattern.png");
     background-size: auto;
     background-position: center;
-    background-repeat: repeat;
-}
+    background-repeat: repeat; }
+    .menu .header__pattern .nav__item {
+      font-family: 'Silkscreen', cursive;
+      text-decoration: none;
+      text-align: left;
+      color: white; }
 
-.pie__nav{
+.pie {
+  background-image: url("../src/darkpattern.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat; }
+  .pie .pie__nav {
     padding: 10px;
     display: flex;
-    justify-content: space-evenly
-}
-
-.pie__nav__link{
-    color: white;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    display: inline-block;
-}
-
-.pie__rights{
+    justify-content: space-evenly; }
+    .pie .pie__nav .pie__nav__link {
+      color: white;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      display: inline-block; }
+  .pie .pie__rights {
     color: white;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
-}
+    margin-bottom: 0;
+    font-family: 'Silkscreen', cursive; }

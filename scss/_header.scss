@@ -1,0 +1,18 @@
+.menu{
+    height: 15vh;
+    flex-direction: row;
+    justify-content: right;
+    align-content: stretch;
+    .header__pattern{
+        background-image: url("../src/darkpattern.png");
+        background-size: auto;
+        background-position: center;
+        background-repeat: repeat;
+        .nav__item{
+            font-family: 'Silkscreen', cursive;
+            text-decoration: none;
+            text-align: left;
+            color: white;
+        }
+    }
+}

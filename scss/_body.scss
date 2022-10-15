@@ -1,0 +1,63 @@
+html{
+    background-color: $color-primario;
+}
+
+body{
+    background-image: url("../src/deep_spaceUSP.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+hr {
+    color: $color-secundario;
+}
+
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo__primario{
+    text-align: center;
+    color: $color-secundario;
+    text-align: center;
+    text-shadow: 1px 2px 2px $color-terciario, 0 0 25px white, 0 0 5px #6f26dd, 0 0 20px white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.titulo__secundario{
+    color: white;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+.titulo__terciario{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main__datos__btn{
+    display: block;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__bg__propio{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,41,90,1) 50%, rgba(2,0,36,1) 100%);
+}
+
+.astronauta{
+    display: block;
+    margin: 0 auto;
+}

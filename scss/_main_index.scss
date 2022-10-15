@@ -1,0 +1,24 @@
+.div__bienvenida{
+    margin: 0 auto;
+    width: 80%;
+    .imagen__bienvenida{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.div__enlaces{
+    width: 50%;
+    margin: 0 auto;
+    .div__enlaces__img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        &:hover{
+            transform: scale(1.15);
+        }
+    }
+    .transicion__nave{
+        transition: all 3s;
+    }
+}
