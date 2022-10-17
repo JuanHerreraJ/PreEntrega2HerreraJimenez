@@ -47,17 +47,15 @@ p{
 }
 
 .centrado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center
 }
 
 .card__bg__propio{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,41,90,1) 50%, rgba(2,0,36,1) 100%);
+    background: rgba(2, 0, 36, 0.900);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.900) 0%, rgba(115, 41, 90, 0.900) 50%, rgba(2, 0, 36, 0.900) 100%);
+    border: $borde-cajas;
 }
 
 .astronauta{
-    display: block;
-    margin: 0 auto;
+    @include block-auto
 }

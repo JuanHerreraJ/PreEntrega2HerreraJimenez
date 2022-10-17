@@ -50,8 +50,9 @@ p {
   align-items: center; }
 
 .card__bg__propio {
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #73295a 50%, #020024 100%); }
+  background: rgba(2, 0, 36, 0.9);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.9) 0%, rgba(115, 41, 90, 0.9) 50%, rgba(2, 0, 36, 0.9) 100%);
+  border: solid white 1px; }
 
 .astronauta {
   display: block;
