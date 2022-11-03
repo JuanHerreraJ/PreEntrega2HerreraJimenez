@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url("../src/deep_spaceUSP.webp");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url("../src/deep_spaceUSP.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,18 +22,18 @@ p{
     text-align: center;
     color: $color-secundario;
     text-align: center;
-    text-shadow: 1px 2px 2px $color-terciario, 0 0 25px white, 0 0 5px #6f26dd, 0 0 20px white;
+    text-shadow: 1px 2px 2px $color-terciario, 0 0 25px $color-blanco, 0 0 5px $color-terciario, 0 0 20px $color-blanco;
     font-family: 'Press Start 2P', cursive;
 }
 
 .titulo__secundario{
-    color: white;
+    color: $color-blanco;
     text-align: center;
     font-family: 'Silkscreen', cursive;
 }
 
 .titulo__terciario{
-    color: white;
+    color: $color-blanco;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
@@ -43,7 +43,7 @@ p{
     text-align: center;
     font-family: 'Silkscreen', cursive;
     text-decoration: none;
-    color: white;
+    color: $color-blanco;
 }
 
 .centrado{
