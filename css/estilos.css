@@ -20,6 +20,9 @@ p {
   color: white;
   font-family: 'Open Sans', sans-serif; }
 
+a {
+  text-decoration: none; }
+
 .titulo__primario {
   text-align: center;
   color: #94dd26;
