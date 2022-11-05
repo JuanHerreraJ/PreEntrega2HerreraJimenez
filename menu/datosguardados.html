@@ -7,6 +7,7 @@
     <title>¡Tus datos fueron guardados! | Multiverso Fandom</title>
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="grid__datos">
@@ -16,7 +17,6 @@
                 <div>
                     <a href="../index.html"><img src="../src/logoresize2MF.png" alt="Logo multiverso fandom"></a>
                 </div>
-                <!--<a class="navbar-brand nav__item" href="../index.html">Multiverso Fandom</a>-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -45,13 +45,13 @@
             </div>
         </nav>
     </header>
-    <main class="main__datos">
+    <main class="main__datos" data-aos="fade-up">
         <br>
         <br>
         <h1 class="titulo__primario">¡Tus datos fueron guardados!</h1>
         <br>
         <br>
-        <img class="astronauta" src="../src/astronauta.gif" alt="astronauta celebrando con las manos arriba" width="300">
+        <img class="astronauta" src="../src/gracias.png" alt="astronauta celebrando con las manos arriba" width="300">
         <br>
         <a class="main__datos__btn" href="../index.html">Volver al Inicio</a>
     </main>
@@ -69,5 +69,9 @@
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

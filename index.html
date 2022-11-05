@@ -7,6 +7,7 @@
     <title>Inicio | Multiverso Fandom</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
         <br>
         <div class="div__bienvenida">
             <h1 class="titulo__primario">¡Esto es Multiverso Fandom!</h1>
-            <img class="imagen__bienvenida" src="./src/bienvenidamf.png" alt="Imagen de bienvenida">
+            <img data-aos="zoom-in" class="imagen__bienvenida" src="./src/bienvenidamf.png" alt="Imagen de bienvenida">
             <h2 class="titulo__secundario"> Espacio dedicado a reseñas, teorías, hype, videojuegos, cine, series y todo lo que más nos gusta del entretenimiento digital, desde el punto de vista de nosotros, los verdaderos fanáticos.</h2>
         </div>
         <br>
@@ -86,5 +87,9 @@
         </div>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
